@@ -65,8 +65,8 @@ component {
 			
 			if( !skipInstall ) {
 				var APMBoxJSONFile = serverInfo.APMHomeDirectory & 'box.json';
-				if( fileExists( APMBoxJSON ) ) {
-					fileDelete( APMBoxJSON );
+				if( fileExists( APMBoxJSONFile ) ) {
+					fileDelete( APMBoxJSONFile );
 				}
 				// install APM jar and debug binaries
 				packageService.installPackage( id=serverInfo.APMInstallID, directory=serverInfo.APMHomeDirectory, currentWorkingDirectory=serverInfo.APMHomeDirectory, save=true, verbose=serverinfo.verbose );	

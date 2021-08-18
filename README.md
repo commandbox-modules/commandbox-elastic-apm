@@ -1,6 +1,9 @@
 # Elastic APM Module
 
-This module adds support to enable Elastic APM on the servers you start inside CommandBox.  
+This module adds support to enable Elastic APM on the servers you start inside CommandBox.  You will need to have an APM server running and an Elastic search instance to store the data.  One of the settings you'll need to provide will be the URL of the APM server to send the data to.
+
+You can read more about how Elastic APM works here:
+https://www.elastic.co/apm/
 
 ## Installation
 
