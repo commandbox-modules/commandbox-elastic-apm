@@ -7,11 +7,17 @@
         "type":"",
         "URL":"https://github.com/commandbox-modules/commandbox-elastic-apm"
     },
-    "bugs":"",
     "slug":"commandbox-elastic-apm",
     "shortDescription":"Adds support to start your CommandBox servers with Elastic APM",
     "type":"commandbox-modules",
-    "keywords":"elastic,apm,cfml,coldfusion,server,monitor",
+    "keywords":[
+        "elastic",
+        "apm",
+        "cfml",
+        "coldfusion",
+        "server",
+        "monitor"
+    ],
     "scripts":{
         "postVersion":"publish"
     },
