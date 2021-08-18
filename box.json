@@ -1,6 +1,6 @@
 {
     "name":"CommandBox Elastic APM",
-    "version":"1.0.0",
+    "version":"1.0.1",
     "author":"Brad Wood",
     "homepage":"https://github.com/commandbox-modules/commandbox-elastic-apm",
     "repository":{
