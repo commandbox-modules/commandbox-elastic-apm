@@ -1,0 +1,20 @@
+{
+    "name":"CommandBox Elastic APM",
+    "version":"1.0.0",
+    "author":"Brad Wood",
+    "homepage":"https://github.com/commandbox-modules/commandbox-elastic-apm",
+    "repository":{
+        "type":"",
+        "URL":"https://github.com/commandbox-modules/commandbox-elastic-apm"
+    },
+    "bugs":"",
+    "slug":"commandbox-elastic-apm",
+    "shortDescription":"Adds support to start your CommandBox servers with Elastic APM",
+    "type":"commandbox-modules",
+    "keywords":"elastic,apm,cfml,coldfusion,server,monitor",
+    "scripts":{
+        "postVersion":"publish"
+    },
+    "dependencies":{},
+    "installPaths":{}
+}
