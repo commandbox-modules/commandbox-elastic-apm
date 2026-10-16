@@ -23,7 +23,7 @@ You can configure your Elastic APM client in the `server.json` like so:
 {
   "elasticAPM" : {
     "enable" : false,
-    "installID" : "jar:https://repo1.maven.org/maven2/co/elastic/apm/elastic-apm-agent/1.24.0/elastic-apm-agent-1.24.0.jar",
+    "installID" : "jar:https://repo1.maven.org/maven2/co/elastic/apm/elastic-apm-agent/1.43.0/elastic-apm-agent-1.43.0.jar",
     "settings" : {
       "SERVICE_NAME" : "${serverinfo.name}",
       "SERVER_URL" : "http://elk-host.local:8200",
